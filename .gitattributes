@@ -1,0 +1,4 @@
+Football_test.mp4 filter=lfs diff=lfs merge=lfs -text
+Football_test_result.mp4 filter=lfs diff=lfs merge=lfs -text
+Luckybest.pt filter=lfs diff=lfs merge=lfs -text
+yolov7x.pt filter=lfs diff=lfs merge=lfs -text
