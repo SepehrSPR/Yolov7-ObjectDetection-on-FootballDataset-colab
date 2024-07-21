@@ -1,0 +1,10 @@
+
+train: ./data/train.drive
+val: ./data/val.drive
+
+
+# number of classes
+nc: 6
+
+# class names
+names: [ 'Portugal','Spain','Ball','Referee','Goalkeeper.s','Goalkeeper.p' ]
