@@ -35,7 +35,7 @@ This project involves training and utilizing the YOLOv7 model for object detecti
 
 2. **Model Configuration**:
     - Edit the `yolov7x.yaml` file located in the `cfg/training` directory to reflect the custom dataset.
-    - Set `Epoch` to 100, `BatchSize` to 16, and `ImageSize` to 416x416.
+    - Set `Epoch` to 32, `BatchSize` to 16, and `ImageSize` to 416x416.
 
 ## Training the Model
 
@@ -52,7 +52,7 @@ This project involves training and utilizing the YOLOv7 model for object detecti
     - This video was uploaded to the main directory.
 
 2. **Running Detection**:
-    - Using the `detect.py` script with the best-trained weights and a confidence level of 0.5, the algorithm detected objects in the video.
+    - Using the `detect.py` script with the best-trained weights and a confidence level of 0.25, the algorithm detected objects in the video.
     - The detected results were saved in the `yolov7/runs/detect` directory.
 
 ## Additional Information
@@ -60,5 +60,6 @@ This project involves training and utilizing the YOLOv7 model for object detecti
 - The best training weights and the detection code exists.
 - Example images and their corresponding labels have been placed in their appropriate directories within the dataset structure but they are not not enough and you should upload your own labeled images like example.
 - You can download mp4 file separately by clicking on them and then tapping on download.
+- if you set epoch 100 and confidence level 0.5 you will reach even higher precision and recall but also you will need more resources and time.
 
 
