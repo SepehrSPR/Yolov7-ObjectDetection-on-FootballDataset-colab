@@ -59,5 +59,6 @@ This project involves training and utilizing the YOLOv7 model for object detecti
 
 - The best training weights and the detection code exists.
 - Example images and their corresponding labels have been placed in their appropriate directories within the dataset structure but they are not not enough and you should upload your own labeled images like example.
+- You can download mp4 file separately by clicking on them and then tapping on download.
 
 
