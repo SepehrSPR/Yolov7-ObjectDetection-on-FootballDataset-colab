@@ -40,8 +40,7 @@ This project involves training and utilizing the YOLOv7 model for object detecti
 ## Training the Model
 
 1. **Initial Training**:
-    - Train the model with the above configuration using the specified data and configurations.
-    - Subsequent trainings were also conducted with `Epoch` values set to 32 and 50 for further fine-tuning.
+    - Train the model with the above configuration using the specified data and configurations using the script.
 
 2. **Saving Trained Weights**:
     - The best weights from training were saved from the `runs/training/weights` directory and copied to the main `yolov7` folder.
@@ -54,13 +53,11 @@ This project involves training and utilizing the YOLOv7 model for object detecti
 
 2. **Running Detection**:
     - Using the `detect.py` script with the best-trained weights and a confidence level of 0.5, the algorithm detected objects in the video.
-    - The detection was repeated with confidence levels of 0.25 and 0.2 for comparison.
     - The detected results were saved in the `yolov7/runs/detect` directory.
 
 ## Additional Information
 
-- The best training weights and the detection code have been placed in the `results` directory.
-- Example images and their corresponding labels have been placed in their appropriate directories within the dataset structure.
+- The best training weights and the detection code exists.
+- Example images and their corresponding labels have been placed in their appropriate directories within the dataset structure but they are not not enough and you should upload your own labeled images like example.
 
-This project demonstrates the complete pipeline from data preparation, model training, and evaluation, to running object detection on new video data using YOLOv7. The results can be visualized and analyzed from the output files generated in the specified directories.
 
