@@ -1,4 +1,4 @@
-# YOLOv7 Training and Detection Pipeline
+# YOLOv7 Training and Detection Pipelinee
 
 This project involves training and utilizing the YOLOv7 model for object detection on a custom dataset. Below is a summary of the steps taken to achieve this, including data preparation, model training, and detection on new videos.
 
